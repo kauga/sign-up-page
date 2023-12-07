@@ -1,0 +1,41 @@
+@media screen and (max-width: 1150px) {
+  .input-grid {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .input {
+    width: 75%;
+  }
+
+  .fixing-container {
+    padding: 0.2rem 3rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .input {
+    width: 65%;
+  }
+  .fixing-container {
+    padding: 0.2rem 1.5rem;
+  }
+
+  .container {
+    padding: 0.1rem 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .input-grid {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+  
+  .input {
+    width: 90%;
+  }
+
+}
