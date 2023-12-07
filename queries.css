@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 512px) {
   .input-grid {
     display: flex;
     flex-direction: column;
@@ -38,4 +38,15 @@
     width: 90%;
   }
 
+  .fixing-container {
+    padding: 0;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  body {
+    box-sizing: border-box;
+  }
 }
